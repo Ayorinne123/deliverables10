@@ -23,7 +23,22 @@ function capitalize()
 {
     document.getElementById("content").style.textTransform = 'Capitalize'
 }
-
+function clear()
+{
+    document.getElementById("content").style.clear = ""
+}
+function center()
+{
+    document.getElementById("content").style.textAlign = 'center'
+}
+function right()
+{
+    document.getElementById("content").style.textAlign = 'right'
+}
+function left()
+{
+    document.getElementById("content").style.textAlign = 'left'
+}
 
 
 
