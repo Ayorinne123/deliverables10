@@ -6,17 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/66b1033b7a.js" crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Text Editor</title>
-    <script>
-        function bold() {}
-        function italic() {}
-        function insertorderedlist() {}
-        function underline() {}
-        function textalignleft() {}
-        function textalignright() {}
-        function textaligncenter() {}
-    </script>
 
 </head>
 <body>
@@ -25,10 +17,10 @@
 <div class="main-content">
            <!--text editor header-->
     <div class="text-editor-header">
-        <button type="button" class="btn" onclick="bold">
+        <button type="button" class="btn" onclick="bold()">
             Bold
         </button>
-        <button type="button" class="btn" onclick="italic">
+        <button type="button" class="btn" onclick="italic()">
             <i class="fa-solid fa-italic"></i>
         </button>
         <button type="button" class="btn" onclick="underline()">
@@ -47,7 +39,7 @@
             <i class="fa-solid fa-align-justify"></i>
         </button>
         <button type="button" class="btn" onclick="uppercase()">
-            UpperCase
+            <i class="fa-solid fa-arrow-up-wide-short"> UpperCase</i>
         </button>
         <button type="button" class="btn" onclick="capitalize()">
             Capitalize
@@ -58,12 +50,10 @@
     </div>
     <br>
                 <!--App File-->
-    <div class="content" contenteditable="true">
+    <div class="content" contenteditable="true" id="content">
 
     </div>
-    <div class="before:content-['Not_Hovering'] hover:before:content-['Hovering']">
-        <!-- ... -->
-      </div>
+
 
 </div>
 </body>

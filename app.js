@@ -1,17 +1,29 @@
 // Elements
 function bold()
 {
-    document.getElementById(text-area1).style.fontWeight = 'bold'
-}
+    document.getElementById("content").style.fontWeight = 'bold';
+}  
 function italic()
 {
-    document.getElementById(text-area1).style.fontWeight = 'italic'
+    document.getElementById("content").style.fontStyle = 'italic'
 }
 function underline()
 {
-    document.getElementById(text-area1).style.fontweight = 'underline'
+    document.getElementById("content").style.textDecoration = 'underline'
 }
-function undeline()
+function uppercase()
 {
-    document.getElementById(text-area1).style.fontweight = 'insert'
+    document.getElementById("content").style.textTransform = 'uppercase'
 }
+function lowercase()
+{
+    document.getElementById("content").style.textTransform = 'lowercase'
+}
+function capitalize()
+{
+    document.getElementById("content").style.textTransform = 'Capitalize'
+}
+
+
+
+
