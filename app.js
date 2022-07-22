@@ -42,6 +42,8 @@ function clr()
     document.getElementById("content").style.fontWeight = 'normal'
     document.getElementById("content").style.textDecoration = 'none'
     document.getElementById("content").style.fontStyle = 'normal'
+    document.getElementById("content").style.textTransform = 'none'
+    document.getElementById("content").style.textAlign = 'left'
     document.getElementsByClassName('content')[0].innerHTML=''
 }
 
