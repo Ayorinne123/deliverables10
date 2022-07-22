@@ -1,7 +1,7 @@
 // Elements
 function bold()
 {
-    document.getElementById("content").style.fontWeight = 'bold';
+    document.getElementById("content").style.fontWeight = 'bold'
 }  
 function italic()
 {
@@ -23,10 +23,7 @@ function capitalize()
 {
     document.getElementById("content").style.textTransform = 'Capitalize'
 }
-function clear()
-{
-    document.getElementById("content").style.clear = ""
-}
+
 function center()
 {
     document.getElementById("content").style.textAlign = 'center'
@@ -40,5 +37,27 @@ function left()
     document.getElementById("content").style.textAlign = 'left'
 }
 
+function clr()
+{
+    document.getElementById("content").style.fontWeight = 'normal'
+    document.getElementById("content").style.textDecoration = 'none'
+    document.getElementById("content").style.fontStyle = 'normal'
+    document.getElementsByClassName('content')[0].innerHTML=''
+}
 
 
+// const contenteditable = document.getElementById('content');
+
+// // ✅ Clear contenteditable value
+// contenteditable.value = '';
+
+// // ✅ Clear textarea value on click
+// const btn = document.getElementById('btn');
+
+// btn.addEventListener('click', function clr() {
+//   // 👇️ log value before clearing it
+//   console.log(contenteditable.value);
+
+//   // 👇️ clear contenteditable value
+//   contenteditable.value = '';
+// });
