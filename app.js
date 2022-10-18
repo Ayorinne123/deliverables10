@@ -36,7 +36,7 @@ function left()
 {
     document.getElementById("content").style.textAlign = 'left'
 }
-
+// this is a javascript that changes the style of the sheet
 function clr()
 {
     document.getElementById("content").style.fontWeight = 'normal'
